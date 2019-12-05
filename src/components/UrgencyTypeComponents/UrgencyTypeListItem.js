@@ -14,7 +14,7 @@ export default class UrgencyTypeListItem extends Component {
         <span></span>
         <button
           onClick={() => {
-            this.props.deleteUrgencyTypeClicked(this.props.item.id);
+            this.props.deleteUrgency(this.props.item.id);
           }}
         >
           DELETE

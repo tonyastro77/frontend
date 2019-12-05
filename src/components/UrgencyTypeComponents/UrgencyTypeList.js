@@ -16,7 +16,7 @@ class UrgencyTypeList extends Component {
           <UrgencyTypeListItem
             key={item.id}
             item={item}
-            deleteUrgencyTypeClicked={this.props.deleteUrgencyTypeLocal}
+            deleteUrgency={this.props.deleteUrgencyTypeLocal}
           />)
       }</ol>
     </div>;
